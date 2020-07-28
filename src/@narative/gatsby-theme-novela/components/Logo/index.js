@@ -11,11 +11,11 @@ const Logo = ({ fill = "white" }) => {
     <LogoContainer>
       <svg
         width="350"
-        height="auto"
+        height="100%"
         viewBox="0 0 192 23"
         className="Logo__Desktop"
       >
-        <g transform="scale(2) translate(-60,-136)" id="layer1">
+        <g transform="scale(2.1) translate(-60,-136)" id="layer1">
           <ClubLogo fill={fill} />
           <g id="text914" aria-label="open source club">
             <path
@@ -40,7 +40,7 @@ const Logo = ({ fill = "white" }) => {
       </svg>
       <svg
         width="250"
-        height="auto"
+        height="100%"
         viewBox="0 0 192 23"
         className="Logo__Mobile"
       >
