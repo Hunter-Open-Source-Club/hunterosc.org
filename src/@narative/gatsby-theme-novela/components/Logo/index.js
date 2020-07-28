@@ -39,9 +39,9 @@ const Logo = ({ fill = "white" }) => {
         </g>
       </svg>
       <svg
-        width="250"
+        width="100"
         height="100%"
-        viewBox="0 0 192 23"
+        viewBox="10 0 50 23"
         className="Logo__Mobile"
       >
         <g transform="scale(2) translate(-60,-136)" id="layer1">

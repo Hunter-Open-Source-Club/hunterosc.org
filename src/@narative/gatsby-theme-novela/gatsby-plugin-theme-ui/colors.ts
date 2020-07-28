@@ -1,5 +1,7 @@
 import prism from "./prism";
 
+const darkThemeBase = '#141414';
+
 export default {
   prism,
 
@@ -24,15 +26,15 @@ export default {
       grey: "#73737D",
       primary: "#fff",
       secondary: "#fff",
-      accent: "#DBB5FC",
-      background: "#150B1E",
+      accent: "#9D8FA8",
+      background: darkThemeBase,
       hover: "rgba(255, 255, 255, 0.07)",
       gradient:
-        "linear-gradient(180deg, #150B1E 0%, rgba(66, 81, 98, 0.16) 100%)",
+        `linear-gradient(180deg, ${darkThemeBase} 0%, rgba(66, 81, 98, 0.16) 100%)`,
       articleText: "#fff",
       track: "rgba(255, 255, 255, 0.3)",
       progress: "#fff",
-      card: "#1D2128",
+      card: "#150F1A",
       error: "#EE565B",
       success: "#46B17B",
       errorBackground: "rgba(238, 86, 91, 0.1)",
