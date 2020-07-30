@@ -39,7 +39,7 @@ const Logo = ({ fill = "white" }) => {
         </g>
       </svg>
       <svg
-        width="100"
+        width="150"
         height="100%"
         viewBox="10 0 50 23"
         className="Logo__Mobile"

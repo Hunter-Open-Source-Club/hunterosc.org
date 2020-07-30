@@ -153,8 +153,8 @@ const NavigationHeader: React.FC<{}> = () => {
               <>
                 {/* <SharePageButton /> */}
                 <NavIconWrapper>
-                  <Feed size={30} />
-                  <CommunityIcon size={30} />
+                  <Feed size={30} fill={fill} opacity={.5} />
+                  <CommunityIcon size={30} fill={fill} opacity={.5}/>
                 </NavIconWrapper>
                 <DarkModeToggle />
               </>
