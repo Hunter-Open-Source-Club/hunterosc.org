@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "@emotion/styled";
 import { Link, navigate, graphql, useStaticQuery } from "gatsby";
 import { useColorMode } from "theme-ui";
-import { BsPeopleFill as CommunityIcon, BsViewList as Feed } from 'react-icons/bs';
+import { BsPeopleFill as EventsIcon, BsViewList as FeedIcon } from 'react-icons/bs';
 
 import Section from "@components/Section";
 import Logo from "@components/Logo";
@@ -15,21 +15,6 @@ import {
   getBreakpointFromTheme,
 } from "@utils";
 
-// wrap icon svg in styles
-const NavIconWrapper = styled.nav`
-  opacity: 1.0;
-  color: grey;
-  overflow: hidden;
-  > * {
-    margin: 0px 10px;
-    transition: color .3s ease-out;
-  }
-  > * :hover {
-    color: white;
-    cursor: pointer;
-    transition: all .3s ease-in;
-  }
-`
 
 const siteQuery = graphql`
   {
@@ -41,6 +26,33 @@ const siteQuery = graphql`
     }
   }
 `;
+const FeedButton: React.FC<{fill: string}> = (props: any) => {
+  return (
+    <IconWrapper
+      isDark={false}
+      onClick={()=>alert('feed')}
+      data-a11y="false"
+      aria-label={'All Posts'}
+      title={'All Posts'}
+    >
+      <FeedIcon size={30} fill={props.fill}/>
+    </IconWrapper>
+  );
+};
+
+const EventsButton: React.FC<{fill: string}> = (props: any) => {
+  return (
+    <IconWrapper
+      isDark={false}
+      onClick={()=>alert('Events')}
+      data-a11y="false"
+      aria-label={'Events'}
+      title={'Events'}
+    >
+      <EventsIcon size={30} fill={props.fill}/>
+    </IconWrapper>
+  );
+};
 
 const DarkModeToggle: React.FC<{}> = () => {
   const [colorMode, setColorMode] = useColorMode();
@@ -151,11 +163,8 @@ const NavigationHeader: React.FC<{}> = () => {
             </button>
           ) : (
               <>
-                {/* <SharePageButton /> */}
-                <NavIconWrapper>
-                  <Feed size={30} fill={fill} opacity={.5} />
-                  <CommunityIcon size={30} fill={fill} opacity={.5}/>
-                </NavIconWrapper>
+                <FeedButton fill={fill} />
+                <EventsButton fill={fill} />
                 <DarkModeToggle />
               </>
             )}
