@@ -38,7 +38,7 @@ const BioAvatar = styled.div`
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0);
   margin-right: 16px;
   margin: 10px 26px 10px 10px;
 
@@ -50,7 +50,7 @@ const BioAvatar = styled.div`
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.15);
   }
 
   &[data-a11y='true']:focus::after {
@@ -72,7 +72,7 @@ const BioAvatarInner = styled.div`
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.25);
+  background: 2px solid ${p => p.theme.colors.bright};
   margin-right: 16px;
   overflow: hidden;
 `;
