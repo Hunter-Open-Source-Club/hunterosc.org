@@ -49,15 +49,20 @@ const FeedButton: React.FC<{ fill: string }> = (props: any) => {
 
 const EventsButton: React.FC<{ fill: string }> = (props: any) => {
   return (
-    <IconWrapper
-      isDark={false}
-      onClick={() => alert("Events")}
-      data-a11y="false"
-      aria-label={"Events"}
-      title={"Events"}
+    <a
+      href="http://www.huntercs.club"
+      target="_blank"
+      rel="norefferer"
     >
-      <EventsIcon size={30} fill={props.fill} />
-    </IconWrapper>
+      <IconWrapper
+        isDark={false}
+        data-a11y="false"
+        aria-label={"Events"}
+        title={"Events"}
+      >
+        <EventsIcon size={30} fill={props.fill} />
+      </IconWrapper>
+    </a>
   );
 };
 
