@@ -5,6 +5,11 @@ date: 2019-04-30
 hero: ./images/hero.jpg
 excerpt: Make yourself at home!
 ---
+# General Interest Meeting 
+
+https://zoom.us/j/96554506945?pwd=MXVXYnluK3BDQU52YXlnUGUzc3FpQT09
+password: hunteracm
+
 # Open Source Club
 
 Hosted site and (currently bare-bones) homepage of the club.
