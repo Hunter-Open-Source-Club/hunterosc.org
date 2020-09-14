@@ -12,12 +12,9 @@ password: hunteracm
 
 # Open Source Club
 
-Hosted site and (currently bare-bones) homepage of the club.
-
 We're a direct democracy bridging the gap between academia and the tech world.
 
 # Comms 
-[![Join our Discord](https://discord.com/assets/e4923594e694a21542a489471ecffa50.svg)](https://discord.com/invite/wptKBu?utm_source=Discord%20Widget&utm_medium=Connect)
 
 100 members strong! [Join the Hunter CS club network](https://discord.com/invite/wptKBu?utm_source=Discord%20Widget&utm_medium=Connect).
 
