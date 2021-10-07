@@ -16,7 +16,7 @@ We're a direct democracy bridging the gap between academia and the tech world.
 
 # Comms 
 
-100 members strong! [Join the Hunter CS club network](https://discord.com/invite/wptKBu?utm_source=Discord%20Widget&utm_medium=Connect).
+400 members strong! [Join the Hunter CS club network](https://discord.gg/g2frs5m8mv).
 
 * <code@hunterosc.org>
 * [GitHub](https://github.com/Hunter-Open-Source-Club)
