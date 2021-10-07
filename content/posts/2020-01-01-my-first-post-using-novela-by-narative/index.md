@@ -29,7 +29,7 @@ We're a direct democracy bridging the gap between academia and the tech world.
 |----|----|----|
 | Cooperman Business Center | Wordpress, on AWS |  <http://cooperman.hunterosc.org> |
 | Pre-Discrete Workshop |  GH Pages | <http://csci150.hunterosc.org> |
-| 135 Site Mock-up | Jekyll, on GH Pages | <https://csci135.hunterosc.org> |
+| 135 Site Mock-up | Jekyll, on GH Pages | <http://csci135.hunterosc.org> |
 
 
 
